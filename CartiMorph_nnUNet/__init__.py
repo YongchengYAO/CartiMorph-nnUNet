@@ -11,4 +11,4 @@ print("\n\nPlease cite the following paper when using nnUNet:\nIsensee, F., Jaeg
 from . import *
 
 # set version
-__version__ = '1.7.4'
+__version__ = '1.7.6'

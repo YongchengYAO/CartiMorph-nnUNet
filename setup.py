@@ -2,7 +2,7 @@ from setuptools import setup, find_namespace_packages
 
 setup(name='CartiMorph_nnUNet',
       packages=find_namespace_packages(include=["CartiMorph_nnUNet", "CartiMorph_nnUNet.*"]),
-      version='1.7.7',
+      version='1.7.8',
       description='nnU-Net with minor revisions tailored for the CartiMorph framework.',
       url='https://github.com/YongchengYAO/CartiMorph-nnUNet',
       author='Yongcheng Yao',

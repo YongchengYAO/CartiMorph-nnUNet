@@ -11,4 +11,4 @@ print("\n\nPlease also cite the following nnUNet paper:\nIsensee, F., Jaeger, P.
 from . import *
 
 # set version
-__version__ = '1.7.7'
+__version__ = '1.7.8'

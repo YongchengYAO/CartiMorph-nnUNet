@@ -28,7 +28,6 @@ from torch import nn
 from torch.optim import lr_scheduler
 
 import CartiMorph_nnUNet
-from CartiMorph_nnUNet.training.model_restore import recursive_find_python_class
 from CartiMorph_nnUNet.configuration import default_num_threads
 from CartiMorph_nnUNet.evaluation.evaluator import aggregate_scores
 from CartiMorph_nnUNet.inference.segmentation_export import save_segmentation_nifti_from_softmax
@@ -422,7 +421,7 @@ class nnUNetTrainer(NetworkTrainer):
         :param input_files:
         :return:
         """
-        
+        from CartiMorph_nnUNet.training.model_restore import recursive_find_python_class
         preprocessor_name = self.plans.get('preprocessor_name')
         if preprocessor_name is None:
             if self.threeD:

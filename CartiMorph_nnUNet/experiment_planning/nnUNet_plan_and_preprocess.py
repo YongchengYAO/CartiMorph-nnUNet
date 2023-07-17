@@ -13,7 +13,7 @@
 #    limitations under the License.
 
 
-import CartiMorph_nnunet
+import CartiMorph_nnUNet
 from batchgenerators.utilities.file_and_folder_operations import *
 from CartiMorph_nnUNet.experiment_planning.DatasetAnalyzer import DatasetAnalyzer
 from CartiMorph_nnUNet.experiment_planning.utils import crop

@@ -5,7 +5,7 @@ setup(name='CartiMorph_nnUNet',
       version='1.7.6',
       description='nnU-Net with minor revisions tailored for the CartiMorph framework.',
       url='https://github.com/YongchengYAO/CartiMorph-nnUNet',
-      author='Yongcheng Yao, Chinese University of Hong Kong',
+      author='Yongcheng Yao',
       license='Apache License Version 2.0, January 2004',
       install_requires=[
             "torch>1.10.0",

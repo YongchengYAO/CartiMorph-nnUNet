@@ -14,4 +14,4 @@ print("Please also cite the following nnUNet paper: \n"
 from . import *
 
 # set version
-__version__ = '1.7.14'
+__version__ = '1.7.15'
